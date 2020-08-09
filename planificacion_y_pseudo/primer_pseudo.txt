@@ -1,0 +1,66 @@
+
+./mp3explorer –fmt <formato> –sort <criterio> -out <salida> <arch 1>…<arch N>
+
+
+//El programa debe analizar los archivos MP3 suministrados al programa y generar una tabla en
+memoria con los atributos de cada tema, para su posterior ordenamiento e impresión del índice en el
+formato correspondiente//
+
+sort: name, genre, artist,year.
+
+nuestro ejemplo: sort by name  formato: CSV
+
+main()
+
+{
+
+
+
+
+
+	CICLO(para cada argv) //Leemos todos los mp3 y los guardamos en un vector  (load_mp3)
+
+	{
+
+		abrir el archivo iesimo en modo binario 
+
+		adt_track *pointer;
+
+		crear el track iesimo (crea un dato tipo ADT_Track que está en memoria dinamica, y no esta inicializado)
+
+		obtener el indice y guardarlo en el track_t recién creado (primitiva de track_adt)
+
+		cargar el track en la posicion iesima del vector
+
+	}
+
+
+	Ordenar los elementos del vector por (metodo de ordenamiento)
+	{
+
+
+
+	
+	}
+
+
+
+
+}
+
+
+Imprimir los elementos ordenados en (formato indicado)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
