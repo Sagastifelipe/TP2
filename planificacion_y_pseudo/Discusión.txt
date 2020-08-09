@@ -14,6 +14,7 @@ No es posible o si lo es no sabemos como hacer para crear una cantidad desconoci
 
 La mejor forma de hacerlo que se nos ocurrio por ahora es usar un puntero auxiliar, cargar el track y guardarlo en el vector al mismo tiempo, siempre usando un solo puntero auxiliar, y todo dentro de un mismo ciclo iterativo.
 
+asdasdasdasdasdasaasdasd
 
 
 
